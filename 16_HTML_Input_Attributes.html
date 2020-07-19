@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Attributes</title>
+    <style>
+        body{
+            font-family: corbel, sans-serif;
+        }
+
+        div{
+            background-color: seagreen;
+            padding: 10px;
+            margin: 2px;
+            border:0.5px solid yellow;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+  <!--            
+        Simple Input Field Attributes
+        value,
+        readonly,
+        disabled,
+        size,
+        rows , cols
+    -->
+
+<!--
+        HTML5 Input Field Attributes
+        required,
+        novalidate,
+        autofocus,
+        placeholder,
+        pattern
+    -->
+
+    
+
+<div>
+    <form>
+        <label>Username</label>
+        <input type="text" value="Dharani Kumar reddy">
+    </form>
+</div>
+
+            <br>
+
+            <div>
+                <form>
+                    <label>Username</label>
+                    <input type="text" readonly="true">
+                </form>
+            </div>
+                    <br>
+
+                    <div>
+                        <form>
+                            <label>Username</label>
+                            <input type="text" disabled="true">
+                        </form>
+                    </div>
+<br>
+                    
+                    <div>
+                        <form>
+                            <label>Username</label>
+                            <input type="text" size="30">
+                        </form>
+                    </div>
+
+                    <br>
+
+               <div>
+                   <form>
+                       <textarea rows="10" cols="30" >Enter your Message Here.. We will get back u soon</textarea>
+                   </form>
+               </div>     
+    
+    <h2>HTML 5 Input Field Attributes</h2>
+
+    <div>
+        <form>
+            <label>Username</label>
+            <input type="text" required="true">
+            <input type="submit" value="Click">
+        </form>
+    </div>
+
+                    <br>
+
+            <div>
+                <form novalidate="true">
+                    <label>Username</label>
+                    <input type="text" required="true">
+                    <input type="submit" value="Click">
+                </form>
+            </div>
+
+                <br>
+
+        <div>
+            <form>
+                <label>Username</label>
+                <input type="text" name="text" autofocus="true">
+            </form>
+        </div>
+                    <br>
+
+            <div>
+                <form>
+                    <label>Name</label>
+                    <input type="text" name="text" placeholder="Dharani Kumar Reddy">
+                </form>
+            </div>
+
+                            <br>
+
+                <div>
+                    <form>
+                        <label>Username</label>
+                        <input type="text" pattern="^[A-Za-z0-9_]{3,32}$" >
+                        <input type="submit" name="submit">
+                    </form>
+                </div>
+    
+
+
+<br><br><br>
+</body>
+</html>

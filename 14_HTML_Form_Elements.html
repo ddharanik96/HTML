@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple Login Form
+        Login Form with Table
+        Select Box
+        Text Area
+        DataList
+    -->
+
+            <h6>Simple Login Form</h6>
+            <form>
+                <label>Username</label>
+                <input type="text" name="text" required="true">
+                <br>
+                <label>Password</label>
+                <input type="Password" name="Password">
+                <br>
+                <input type="submit" name="submit">
+                <input type="reset" name="reset">
+            </form>
+
+            <h6>Simple Login form with Table</h6>
+
+              <form>
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" id="text" required="true"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="Password" name="Password"></td>
+                </tr>
+               <tr>
+                <td>  <input type="submit" name="submit"></td>
+                <td><input type="reset" name="reset"></td>
+              </tr>
+            </table>
+                        </form>
+
+                            <br><br>
+
+                            <h6>Dropdown</h6>
+                <select>
+                    <option>Please select District</option>
+                    <option>Sri Porri Sriramulu Nellore</option>
+                    <option>Chittor</option>
+                    <option>Prakasam</option>
+                    <option>Guntur</option>
+                    <option>Krishna</option>
+                    <option>East Godawari</option>
+                    <option>West Godavari</option>
+                    <option>Srikakulam</option>
+                    </select>
+
+                        <br><br>
+                            <h6>Text area</h6>
+
+                        <textarea rows="10" cols="20">
+                            Enter your Text here
+                        </textarea>
+
+                        <h6>Datalist</h6>
+                        <div>
+                            <form>
+                                <label>Enter Your District</label>
+                                <input list="District" name="dist">
+                                <datalist id="District">
+                                    <option>Sri Porri Sriramulu Nellore</option>
+                                    <option>Chittor</option>
+                                    <option>Prakasam</option>
+                                    <option>Guntur</option>
+                                    <option>Krishna</option>
+                                    <option>East Godawari</option>
+                                    <option>West Godavari</option>
+                                    <option>Srikakulam</option>
+                                </datalist>
+                                <input type="submit" name="submit">
+                            </form>
+                        </div>
+</body>
+</html>

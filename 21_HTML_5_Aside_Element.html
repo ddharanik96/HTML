@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aside tag</title>
+	<style>
+		aside{
+			font-family: corbel;
+			background-color: maroon;
+			float: left;
+			height: 350px;
+			width: 180px;
+			text-align: center;
+			border-radius: 20px;
+		}
+
+		ul  {
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		ul li a{
+			text-decoration: none;
+			padding: 19px 20px;
+			color: white;
+			display: block;
+		}
+		ul li a:hover{
+			background-color: orange;
+			font-size: 20px;
+			padding: 15px 25px;
+			color: black;
+			border-radius: 20px;
+			box-shadow: 5px 5px 5px red;
+
+		}
+
+		ul li a.active{
+			background-color: cyan;
+			border-radius: 20px;
+
+		}
+	</style>
+</head>
+<body>
+
+<aside>
+		<ul>
+			<li><a href="#" class="active">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">Java Script</a></li>
+			<li><a href="#">Bootstrap</a></li>
+			<li><a href="#">Angular JS</a></li>
+			<li><a href="#">PhotoShop</a></li>
+
+		</ul>
+</aside>
+</body>
+</html>

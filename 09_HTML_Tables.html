@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: corbel,sans-serif;
+
+        }
+
+        table,th,td{
+          border:2px solid red;
+          border-collapse:collapse;
+          text-align: center;
+          padding: 8px;
+        }
+
+        #cass thead{
+            background-color: cyan;
+            font-family: Times new roman;
+            font-size: 18px;
+        }
+
+        #cass tbody{
+            background-color: pink;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple table
+        table row span
+        table col span
+        custom table with css
+    -->
+
+
+<table width="100%">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+
+        <td>Dharani Kumar reddy</td>
+        <td>25</td>
+        <td>Nellore</td>
+    </tr>
+    <tr>
+        <td>Reddy</td>
+        <td>26</td>
+        <td>Chennai</td>
+    </tr>
+    <tr>
+        <td>Sai</td>
+        <td>29</td>
+        <td>Vakadu</td>
+    </tr>
+</table>
+
+
+<h3>Rowspan</h3>
+
+<table width="100%">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+
+        <td rowspan="2">Dharani Kumar reddy & Reddy</td>
+        <td>25</td>
+        <td>Nellore</td>
+    </tr>
+    <tr>
+       <!--  <td>Reddy</td>-->
+        <td>26</td>
+        <td>Chennai</td>
+    </tr>
+    <tr>
+        <td>Sai</td>
+        <td>29</td>
+        <td>Vakadu</td>
+    </tr>
+</table>
+
+<h3>Colspan</h3>
+
+<table width="100%">
+    <tr>
+        <th>Name</th>
+        <th colspan="2">Age and Address</th>
+        <!-- <th>Address</th>-->
+    </tr>
+    <tr>
+
+        <td>Dharani Kumar reddy</td>
+        <td>25</td>
+        <td>Nellore</td>
+    </tr>
+    <tr>
+        <td>Reddy</td>
+        <td>26</td>
+        <td>Chennai</td>
+    </tr>
+    <tr>
+        <td>Sai</td>
+        <td>29</td>
+        <td>Vakadu</td>
+    </tr>
+</table>
+
+<h3>CSS Table</h3>
+
+<table id="cass" width="100%">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+
+        <td>Dharani Kumar reddy</td>
+        <td>25</td>
+        <td>Nellore</td>
+    </tr>
+    <tr>
+        <td>Reddy</td>
+        <td>26</td>
+        <td>Chennai</td>
+    </tr>
+    <tr>
+        <td>Sai</td>
+        <td>29</td>
+        <td>Vakadu</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
